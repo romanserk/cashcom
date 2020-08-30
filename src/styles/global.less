@@ -1,0 +1,36 @@
+@import './mixins';
+@import './fonts';
+
+:root {
+  font-size: 62.5%;
+}
+
+
+// Here you put all global css rules.
+body {
+  font-family: 'Roboto';
+  color: @app-black;
+  margin: 0rem;
+}
+
+
+// global colors
+@green: red;
+@app-black: #191c24;
+@info-color: #5310ea;
+@end-time-color: #535a62;
+@see-all-color: #cb0cb1;
+@duration-background-color: rgba(237, 73, 80, 0.9);
+
+
+
+@border-radius: 4px;
+
+// card items sizing
+@item-desktop-width: 270px;
+@item-desktop-height: 316px;
+@item-mobile-width: 150px;
+@item-mobile-height: 180px;
+
+// screen width media query
+@desktop-width: 1125px;

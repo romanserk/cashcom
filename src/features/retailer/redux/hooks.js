@@ -1,0 +1,1 @@
+export { useFetchRetailerInfo } from './fetchRetailerInfo';

@@ -1,0 +1,1 @@
+export const TOKEN_COOKIE = 'boom25-user-token';

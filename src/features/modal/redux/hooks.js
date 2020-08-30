@@ -1,0 +1,1 @@
+export { useUpdateCurrentModal } from './updateCurrentModal';
